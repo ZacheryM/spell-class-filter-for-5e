@@ -1,34 +1,38 @@
 {
-    "name": "spell-class-filter-for-5e",
-    "title": "Multiclass Spellbook Filter",
-    "description": "Adds options to organize spells by class. Useful for multiclass characters. Orginally by: MrEnigmamgine.",
-    "version": "0.31",
-    "author": "ZacheryM",
-    "compatibility": [
-        {
-            "minimum": "8.3",
-            "verified": "11"
-        }
-    ],
-    "relationships": [
-        {
-            "systems": "dnd5e"
-        }
-    ],
-    "esmodules": [
-        "./scf.js"
-    ],
-    "styles": [
-        
-    ],
-    "languages": [
-        {
-            "lang": "en",
-            "name": "English",
-            "path": "lang/en.json"
-        }
-    ],
-    "url":      "https://github.com/ZacheryM/spell-class-filter-for-5e",
-    "manifest": "https://github.com/ZacheryM/spell-class-filter-for-5e/releases/latest/download/module.json",
-    "download": "https://github.com/ZacheryM/spell-class-filter-for-5e/releases/download/v0.31/module.zip"
+  "title": "Multiclass Spellbook Filter",
+  "description": "Adds options to organize spells by class. Useful for multiclass characters. Orginally by: MrEnigmamgine.",
+  "version": "0.31",
+  "esmodules": [
+    "scf.js"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json",
+      "flags": {}
+    }
+  ],
+  "url": "https://github.com/ZacheryM/spell-class-filter-for-5e",
+  "manifest": "https://github.com/ZacheryM/spell-class-filter-for-5e/releases/latest/download/module.json",
+  "download": "https://github.com/ZacheryM/spell-class-filter-for-5e/releases/download/v0.31/module.zip",
+  "id": "spell-class-filter-for-5e",
+  "compatibility": {
+    "minimum": "8.3",
+    "verified": "11"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system"
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "MrEnigmamgine",
+      "url": "https://github.com/MrEnigmamgine"
+    }
+  ]
 }
