@@ -4,9 +4,17 @@
     "description": "Adds options to organize spells by class. Useful for multiclass characters.",
     "version": "0.3",
     "author": "MrEnigmamgine",
-    "minimumCoreVersion": "0.8.3",
-    "compatibleCoreVersion": "9",
-    "system": "dnd5e",
+    "compatibility": [
+        {
+            "minimum": "8.3",
+            "verified": "11"
+        }
+    ],
+    "relationships": [
+        {
+            "systems": "dnd5e"
+        }
+    ],
     "esmodules": [
         "./scf.js"
     ],
